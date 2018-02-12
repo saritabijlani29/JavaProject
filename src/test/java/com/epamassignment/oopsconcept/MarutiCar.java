@@ -11,7 +11,7 @@ public class MarutiCar extends AbstractCar {
 		Reporter.log("6 seater car");
 	}
 
-	 void seater(String seat) {
+	  void seater(String seat) {
 		System.out.println(seat + "::::seater car");
 		// use reporter log if need to print message in report
 		Reporter.log(seat + "::::seater car");

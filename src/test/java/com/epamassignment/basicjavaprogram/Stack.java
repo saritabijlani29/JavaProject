@@ -7,7 +7,7 @@ public class Stack {
 
 	Queue<Integer> queue = new LinkedList<Integer>();
 
-	 void pushElement(int val) {
+	private void pushElement(int val) {
 		int size = queue.size();
 		queue.add(val);
 		for (int i = 0; i < size; i++) {
@@ -16,7 +16,7 @@ public class Stack {
 		}
 	}
 
-	 int popElement() {
+	private  int popElement() {
 		if (queue.isEmpty()) {
 			System.out.println("No elements");
 			return -1;
@@ -25,7 +25,7 @@ public class Stack {
 		return x;
 	}
 
-	 int topElement() {
+	private int topElement() {
 		if (queue.isEmpty()) {
 			return -1;
 		}

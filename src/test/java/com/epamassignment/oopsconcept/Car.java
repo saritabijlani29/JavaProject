@@ -1,6 +1,7 @@
 //Encapsulation 
 package test.java.com.epamassignment.oopsconcept;
 
+@SuppressWarnings("all")
 public class Car {
 	private String manufacturer = "rrxc";
 	private int speed = 150;
@@ -11,32 +12,32 @@ public class Car {
 		return manufacturer;
 	}
 
-	 void setManufacturer(String manufacturer) {
+	 private void setManufacturer(String manufacturer) {
 		this.manufacturer = manufacturer;
 	}
 
-	 String getModel() {
+	 protected String getModel() {
 		return model;
 	}
 
-	 void setModel(String model) {
+	 protected void setModel(String model) {
 		this.model = model;
 	}
 
-	 int getCost() {
+	 protected int getCost() {
 		return cost;
 	}
 
-	 void setCost(int cost) {
+	 private void setCost(int cost) {
 		this.cost = cost;
 	}
 
-	 int getSpeed() {
+	 protected int getSpeed() {
 		return speed;
 
 	}
 
-	 void setSpeed(int speed) {
+	 private void setSpeed(int speed) {
 		this.speed = speed;
 	}
 	 

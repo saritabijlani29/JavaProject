@@ -2,14 +2,14 @@ package test.java.com.epamassignment.basicjavaprogram;
 
 public class RotateArray {
 
-	 void rotateLeft(int arr[], int rotateBy) {
+	private  void rotateLeft(int arr[], int rotateBy) {
 		int i;
 		for (i = 0; i < rotateBy; i++) {
 			rotateLeftByOne(arr);
 		}
 	}
 
-	void rotateLeftByOne(int arr[]) {
+	private void rotateLeftByOne(int arr[]) {
 		int i, temp;
 		temp = arr[0];
 		for (i = 0; i < arr.length - 1; i++)
@@ -17,7 +17,7 @@ public class RotateArray {
 		arr[i] = temp;
 	}
 	
-	 void printArray(int arr[]) {
+	private  void printArray(int arr[]) {
 		for (int value : arr) {
 			//Reporter.log(value+ " ");
 			System.out.print(value+ " ");

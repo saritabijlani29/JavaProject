@@ -2,7 +2,7 @@ package test.java.com.epamassignment.basicjavaprogram;
 
 public class BinaryToDecimal {
 
-	void getDecimalFromBinary(int binary) {
+	private void getDecimalFromBinary(int binary) {
 		int power = 0;
 		int decimal = 0;
 		if (checkNumberIsBinary(binary)) {
@@ -17,16 +17,18 @@ public class BinaryToDecimal {
 			System.out.println(binary +" -- is not a binary number");
 	}
 
-	void getDecimalValue(String binaryString) {
+	private void getDecimalValue(String binaryString) {
 		try {
 			System.out.println("decimal value of " + binaryString + " is ::::"
 					+ Integer.parseInt(binaryString, 2));
 		} catch (NumberFormatException e) {
 			e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 	}
 
-	boolean checkNumberIsBinary(int number) {
+	private boolean checkNumberIsBinary(int number) {
 		int copyOfInput = number;
 		while (copyOfInput != 0) {
 			if (copyOfInput % 10 > 1) {

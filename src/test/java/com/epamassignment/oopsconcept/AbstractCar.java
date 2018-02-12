@@ -6,13 +6,13 @@ public abstract class AbstractCar {
 
 	abstract void seater();
 
-	 void start() {
+	protected void start() {
 		System.out.println("Start car");
 		// use reporter log if need to print message in report
 		Reporter.log("Start car");
 	}
 
-	 void stop() {
+	protected void stop() {
 		System.out.println("Stop car");
 		// use reporter log if need to print message in report
 		Reporter.log("Stop car");

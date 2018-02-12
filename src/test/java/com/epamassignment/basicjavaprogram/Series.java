@@ -2,7 +2,7 @@ package test.java.com.epamassignment.basicjavaprogram;
 
 public class Series {
 
-	void inLinePattern(int limit) {
+	private void inLinePattern(int limit) {
 		int series = 0,i;
 		for (i = 1; i <= limit; i++) {
 			series = series * 10 + i;

@@ -9,7 +9,7 @@ import org.testng.Reporter;
 @SuppressWarnings("all")
 public class ReverseString {
 	
-	 void stringReverse(String str) {
+	private  void stringReverse(String str) {
 		String reverse = "";
 		for (int i = str.length() - 1; i >= 0; i--) {
 			char c = str.charAt(i);
@@ -18,7 +18,7 @@ public class ReverseString {
 		Reporter.log("Reversed String is :::" + reverse);
 	}
 	
-	 void findOccurenceOfCharUsingMap(String str) {
+	private void findOccurenceOfCharUsingMap(String str) {
 		Map<Character, Integer> map = new HashMap<Character, Integer>();
 		for (int i = 0; i < str.length(); i++) {
 			char c = str.charAt(i);
@@ -31,7 +31,7 @@ public class ReverseString {
 		System.out.println(map);
 	}
 	
-	 void findOccurenceOfChar(String str) {
+	private void findOccurenceOfChar(String str) {
 		String temp = "";
 		for (int i = 0; i < str.length(); i++) {
 			char c = str.charAt(i);

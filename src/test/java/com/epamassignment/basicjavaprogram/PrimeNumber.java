@@ -4,7 +4,7 @@ import org.testng.Reporter;
  
 public class PrimeNumber {
 
-	 void checkNumberisPrimeOrNot(int num) {
+	private void checkNumberisPrimeOrNot(int num) {
 		boolean flag = false;
 		for (int i = 2; i < num / 2; i++) {
 			if (num % i == 0) {
