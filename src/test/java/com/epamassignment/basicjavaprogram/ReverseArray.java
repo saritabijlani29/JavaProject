@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ReverseArray {
 	
 	private void revArray() {
-		int data[] = { 1, 2, 3, 4, 5};
+		int data[] = { 1, 2, 3, 4, 5,6};
 		for (int i = 0; i < data.length / 2; i++) {
 			int temp = data[i];
 			data[i] = data[data.length - i - 1];
