@@ -1,4 +1,4 @@
-package test.java.com.epamassignment.oopsconcept;
+package src.test.java.com.epamassignment.oopsconcept;
 
 import org.testng.Reporter;
 

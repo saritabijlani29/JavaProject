@@ -1,4 +1,4 @@
-package test.java.com.epamassignment.basicjavaprogram;
+package src.test.java.com.epamassignment.basicjavaprogram;
 
 public class FindSumOfNumberEqualToPair {
 	public static void main(String[] args) {

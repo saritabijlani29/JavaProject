@@ -1,5 +1,5 @@
 //Encapsulation 
-package test.java.com.epamassignment.oopsconcept;
+package src.test.java.com.epamassignment.oopsconcept;
 
 @SuppressWarnings("all")
 public class Car {
