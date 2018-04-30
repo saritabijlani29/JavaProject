@@ -14,7 +14,7 @@ public class BinaryToDecimal {
 			}
 			System.out.println("decimal value of " + binary + " is ::::" +decimal );
 		}else
-			System.out.println(binary +" -- is not a binary number");
+			System.out.println(binary +" ------ is not a binary number");
 	}
 
 	private void getDecimalValue(String binaryString) {
