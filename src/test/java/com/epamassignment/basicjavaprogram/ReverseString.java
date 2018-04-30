@@ -1,4 +1,4 @@
-package test.java.com.epamassignment.basicjavaprogram;
+package src.test.java.com.epamassignment.basicjavaprogram;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package test.java.com.epamassignment.oopsconcept;
+package src.test.java.com.epamassignment.oopsconcept;
 
 public class HondaCar extends Car implements CarInterface  {
 	
